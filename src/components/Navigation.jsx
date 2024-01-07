@@ -1,33 +1,24 @@
-export default function Nav() {
-    const linkStyle = { border: '1px black', padding: '5px' };
+import {Link, useLocation} from 'react-router-dom';
+
+function Nav() {
+    const currentPage = useLocation().pathname;
   
     return (
-      <nav className="main-header-menu">
-        <section
-          style={{
-            display: 'flex',
-            fontFamily: 'helvetica',
-            flexDirection: 'row',
-            alignItems: 'flex-start',
-            justifyContent: 'flex-start',
-          }}
-        >
-          <div style={linkStyle}>
-            <a href="#">Home</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#">About</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#">Portfolio</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#">Contact</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#">Resume</a>
-          </div>
-        </section>
-      </nav>
+      <ul className="nav nav-tabs">
+        <li className="nav-item">
+          <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>Home</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/About" className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}>About</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/Projects" className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link'}>Projects</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/Contact" className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}>Contact</Link>
+        </li>
+      </ul>
     );
   }
+  
+  export default Nav;
