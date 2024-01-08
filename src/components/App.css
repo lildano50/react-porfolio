@@ -1,0 +1,197 @@
+/* Whole Page Attributes */
+:root {
+    --bgblue: #13293d;
+    --textcolor: #fff;
+}
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: Helvetica, sans-serif; 
+}
+body {
+    background-color: #13293d;
+}
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 0, 0.746);
+}
+
+/* Header and Navigation Bar*/
+/* header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: var(--bgblue);
+    color: var(--textcolor);
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+header h1 {
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+    font-size: 20px;
+} */
+ul li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+    font-size: 20px;
+}
+nav {
+    list-style-type: none;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    
+}
+a:hover {
+    color: var(--textcolor);
+}
+
+/* Background Image Below Header - From Open Source Website */
+.backgroundimg {
+    height: 200px;
+    width: 100%;
+    background-image: url("../assets/images/background.webp");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+/* Main Body */
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+        /* About Me */
+
+/*Profile Image Formatting*/
+.danny {
+    height: 200px;
+}
+
+.page-headers {
+    color: var(--textcolor);
+    margin-bottom: 20px;
+}
+
+.body-text {
+    color: var(--textcolor);
+}
+
+        /* Projects */
+.card:hover {
+    box-shadow: 5px 10px 18px yellow
+}
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.card.first {
+    flex: 1 0 99%;
+    display: block;
+}
+.card {
+    flex: 1 0 300px;
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 5px solid #00688B;
+    position: relative;
+}
+.card h2 {
+    background-color: var(--bgblue);
+    color: var(--textcolor);
+    font-size: 20px;
+    word-wrap: break-word;
+    padding: 10px;
+    height: 55px;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+#description {
+    width: 100%;
+    background-color: var(--bgblue);
+    color: var(--textcolor);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+}
+
+        /* Card Background Images */
+#python {
+    background-image: url("../assets/images/soccer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#horiseon {
+    background-image: url("../assets/images/horiseon.jpg");
+    background-size: cover;
+}
+#swift {
+    background-image: url("../assets/images/swift.png");
+    background-size: cover;
+}
+#whattodo {
+    background-image: url("../assets/images/whattodo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#express {
+    background-image: url("../assets/images/devjobs.png");
+    background-size: cover;
+    background-position: center;
+}
+
+        /* Footer */
+#contact {
+    text-align: center;
+    color: var(--textcolor);
+    padding: 10px;
+}
+footer hr {
+    width: 300px;
+    margin: auto;
+}
+#contact h2 {
+    font-size: 30px;
+    padding: 5px;
+}
+#contact a:hover {
+    color: var(--textcolor);
+}
+#contact ul {
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Resizing Settings */
+@media screen and (max-width: 768px) {
+    header,
+    main {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+  }
