@@ -3,8 +3,8 @@ export default function Header() {
 
     return (
       <div>
-      <h1>Home Page</h1>
-      <p>
+      <h1 className="page-headers">Home Page</h1>
+      <p className="body-text">
         Filler Text
       </p>
     </div>
