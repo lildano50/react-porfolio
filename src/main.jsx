@@ -9,6 +9,7 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
 import Project from './components/Project';
+import Resume from './components/Resume';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
         path: '/Contact',
         element: <Contact />,
       },
+      {
+        path: '/Resume',
+        element: <Resume />,
+      }
     ],
   },
 ]);

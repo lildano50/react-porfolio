@@ -3,9 +3,9 @@ export default function Header() {
 
     return (
       <div>
-      <h1 className="page-headers">Home Page</h1>
+      <h1 className="page-headers">Home</h1>
       <p className="body-text">
-        Filler Text
+        Welcome to my portfolio.
       </p>
     </div>
       );

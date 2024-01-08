@@ -19,6 +19,9 @@ function Nav() {
           <li className="nav">
             <Link to="/Contact" /*className={currentPage === '/Contact' ? 'nav-link active' : 'nav'}*/>Contact</Link>
           </li>
+          <li className="nav">
+            <Link to="/Resume" /*className={currentPage === '/Contact' ? 'nav-link active' : 'nav'}*/>Resume</Link>
+          </li>
         </ul>
       </div>
     );
