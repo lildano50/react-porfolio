@@ -17,10 +17,10 @@ export default function Project() {
                   search engine optimization. 
               </p>
           </article>
-          <article class="card" id="swift">
-              <a href="https://developer.apple.com/swift/" alt="Swift Placeholder Project" title="Swift Placeholder Proejct"><span class="link"></span></a>
-                  <h2>Placeholder Project Swift</h2>
-                  <p id="description">This is a placeholder project for a Swift application.</p>
+          <article class="card" id="mern">
+              <a href="https://film-files.onrender.com/" alt="FilmFiles" title="FilmFiles"><span class="link"></span></a>
+                  <h2>DevJobs</h2>
+                  <p id="description">A place to find new developer jobs around the country all in one place. Create a profile and save any jobs that interest you.</p>
           </article>
           <article class="card" id="whattodo">
               <a href="https://lildano50.github.io/group-project-1/"><span class="link"></span></a>
@@ -34,4 +34,4 @@ export default function Project() {
           </article>
       </div>
     );
-  }
+  };
