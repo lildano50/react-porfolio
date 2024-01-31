@@ -10,17 +10,10 @@ export default function Project() {
                   of the game every 5 minutes with a slight home field advantage.
               </p>
           </article>
-          <article class="card" id="horiseon">
-            <a href="https://lildano50.github.io/urban-octo-telegram-hw/Develop/" alt="Daniel Park Bootcamp Module 1 Project" title="Daniel Park Bootcamp Module 1 Proejct"><span class="link"></span></a>
-              <h2>Horiseon Accessibility Project</h2>
-              <p id="description">The client asked that their code be reviewed as well as improve the accessibility of their website to help improve
-                  search engine optimization. 
-              </p>
-          </article>
           <article class="card" id="mern">
-              <a href="https://film-files.onrender.com/" alt="FilmFiles" title="FilmFiles"><span class="link"></span></a>
-                  <h2>DevJobs</h2>
-                  <p id="description">A place to find new developer jobs around the country all in one place. Create a profile and save any jobs that interest you.</p>
+              <a href="https://film-files.onrender.com/" alt="Film Files" title="Film Files"><span class="link"></span></a>
+                  <h2>Film Files</h2>
+                  <p id="description">Search your favorite movies and leave a review. See what others think of the same movie as well!</p>
           </article>
           <article class="card" id="whattodo">
               <a href="https://lildano50.github.io/group-project-1/"><span class="link"></span></a>
